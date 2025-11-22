@@ -27,7 +27,7 @@ def view_report(data):
      print("\n--- Study Report ---")
      for subject, hours in data.items():
                print(f"{subject}: {hours} hours")
-       print()
+     print()
 # Delete subject
 def delete_subject(data):
     subject = input("Enter subject to delete: ")
